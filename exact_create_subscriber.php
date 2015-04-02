@@ -96,7 +96,7 @@ try {
 
 		// Specify the Email To Send
 		$email = new ExactTarget_Email();
-		$email->ID = "4498674";
+		$email->ID = "4589853"; // Email702-LandingPageOptIn  4498674"
 		$emailSendDef->Email = $email;
 		
 		
@@ -115,7 +115,7 @@ try {
 				
 		// Define the email to be sent
 		$tsd->Email = new ExactTarget_Email(); // create email object to attach to the send
-		$tsd->Email->ID = 4498674; // id of the email you want to attach to the triggered send
+		$tsd->Email->ID = "4589853"; // Email702-LandingPageOptIn  4498674; // id of the email you want to attach to the triggered send
 		
 		// Define the send classification that is associated with this send
 		$sc = new ExactTarget_SendClassification();
